@@ -1,0 +1,67 @@
+h1 {
+  text-align: center;
+}
+
+body {
+ background-image: url("back2.jpg");
+ background-size: 100%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+
+.matan {
+  left: 0;
+}
+
+.shahar {
+  right: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  border-radius: 100%;
+
+}
+
+p{
+  font-weight: bold;
+    font-size: 18px;
+
+}
+
+th{
+  color:  #ff6666;
+  font-size: 18px;
+
+
+}
