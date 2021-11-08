@@ -1,18 +1,19 @@
+/*1*/
 h1 {
   text-align: center;
 }
-
+/*2*/
 body {
  background-image: url("back2.jpg");
  background-size: 100%;
 }
-
+/*3*/
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
-
+/*4*/
 td, th {
   border: 2px solid black;
   text-align: center;
@@ -20,14 +21,14 @@ td, th {
   font-weight: bold;
 
 }
-
+/*5*/
 .split {
   height: 100%;
   width: 50%;
   position: fixed;
-  z-index: 1;
+  /* z-index: 1; */
   top: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   padding-top: 20px;
   
 }
